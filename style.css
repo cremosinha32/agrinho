@@ -1,0 +1,108 @@
+/* Resetando alguns estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Fonte e cores principais */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background-color: #6c9e2b;
+    color: white;
+    padding: 30px 0;
+  }
+  
+  header h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  header p {
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  /* Container principal */
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Seções */
+  .section {
+    display: flex;
+    flex-direction: column;
+    margin: 40px 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  #campo, #cidade {
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .image-container {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .image {
+    width: 100%;
+    border-radius: 8px;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .text-content {
+    flex: 2;
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 2rem;
+  }
+  
+  p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+  }
+  
+  /* Conexão */
+  #conexao {
+    text-align: center;
+    background-color: #e0f7fa;
+    padding: 40px;
+    border-radius: 8px;
+  }
+  
+  #conexao h2 {
+    font-size: 2.2rem;
+    color: #00796b;
+  }
+  
+  /* Rodapé */
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
